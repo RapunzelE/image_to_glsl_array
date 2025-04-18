@@ -1,0 +1,12 @@
+[package]
+name = "image_to_glsl_array"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.36", features = ["derive"] }
+console = "0.15.11"
+image = "0.25.6"
+indicatif = "0.17.11"
+thiserror = "2.0.12"
